@@ -58,3 +58,7 @@ python draw_areas.py
 MIT License（詳細はLICENSEファイルを参照）
 
 
+
+作成者：iwakazusuwa(Swatchp)
+
+
