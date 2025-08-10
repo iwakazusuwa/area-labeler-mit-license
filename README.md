@@ -19,6 +19,7 @@ project_root/
 ├── README.md
 └── LICENSE
 ```
+サンプル画像（car.png など）は含めていません。任意の画像ファイルをご用意ください。
 
 ## 必要な環境・依存パッケージ
 - Python 3.x
