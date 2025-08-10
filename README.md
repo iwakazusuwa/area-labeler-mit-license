@@ -3,11 +3,8 @@
 
 ## 概要
 - OpenCVを使ったGUIで、画像に対して多角形エリアを作成
-
 - Tkinterのポップアップでエリア名を入力可能
-
 - 定義したエリアの頂点座標をCSVで保存
-
 - 後続処理のためのエリア範囲描画サンプルコード付き
 
 ## ファイル構成例
@@ -24,11 +21,8 @@ project_root/
 
 ## 必要な環境・依存パッケージ
 - Python 3.x
-
 - OpenCV (opencv-python)
-
 - NumPy
-
 - Tkinter（Python標準GUIライブラリ。通常は標準で含まれます）
 
 
@@ -36,13 +30,9 @@ pip install opencv-python numpy
 
 ## 使い方
 1. area_labeler.py を実行
-
 2. 画像上で左クリックで点を追加、右クリックで直前の点を削除
-
 3. スペースキーでエリア確定＆名前入力
-
 4. Enterキーで全エリア保存して終了
-
 5. ESCキーでキャンセル
 
 
@@ -57,9 +47,10 @@ draw_areas.py は、xy_points.csv に保存されたエリアの頂点情報を�
 
 python draw_areas.py
 
+![Animation_XY_UP](https://github.com/user-attachments/assets/0587d26d-8df3-4846-a67d-1262fa94df26)
 
-area_labeler.py を使って画像上で点を打ち、多角形エリアを作成し、
-その頂点座標が xy_points.csv に保存されます。
+`area_labeler.py` を使って画像上で点を打ち、多角形エリアを作成し、
+その頂点座標が `xy_points.csv` に保存されます。
 
 # ライセンス
 MIT License（詳細はLICENSEファイルを参照）
