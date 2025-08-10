@@ -9,15 +9,16 @@
 
 ## ファイル構成例
 
+```
 project_root/
-
-├── area_labeler.py         # エリア定義ツールのコード<Br>
-├── draw_areas.py           # エリアを色付きで描画するコード<Br>
-├── car.png                 # 元画像<Br>
-├── xy_points.csv           # エリア座標のCSV（入力データ）<Br>
-├── labeled_areas.png       # エリア描画後の出力画像<Br>
-├── README.md<Br>
-├── LICENSE<Br>
+├── area_labeler.py         # エリア定義ツールのコード
+├── draw_areas.py           # エリアを色付きで描画するコード
+├── car.png                 # 元画像
+├── xy_points.csv           # エリア座標のCSV（入力データ）
+├── labeled_areas.png       # エリア描画後の出力画像
+├── README.md
+└── LICENSE
+```
 
 ## 必要な環境・依存パッケージ
 - Python 3.x
@@ -35,17 +36,18 @@ pip install opencv-python numpy
 4. Enterキーで全エリア保存して終了
 5. ESCキーでキャンセル
 
-
+```
 python area_labeler.py
-
+```
 
 # draw_areas.py について
 draw_areas.py は、xy_points.csv に保存されたエリアの頂点情報を読み込み、
 元画像上に色付きポリゴンとしてエリア範囲を描画し、結果を画像ファイル（labeled_areas.png）に保存するサンプルコードです。
 
 エリアの可視化や確認にお役立てください。
-
+```
 python draw_areas.py
+```
 
 ![Animation_XY_UP](https://github.com/user-attachments/assets/0587d26d-8df3-4846-a67d-1262fa94df26)
 
