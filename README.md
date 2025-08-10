@@ -49,8 +49,6 @@ draw_areas.py は、xy_points.csv に保存されたエリアの頂点情報を�
 python draw_areas.py
 ```
 
-![Animation_XY_UP](https://github.com/user-attachments/assets/0587d26d-8df3-4846-a67d-1262fa94df26)
-
 `area_labeler.py` を使って画像上で点を打ち、多角形エリアを作成し、
 その頂点座標が `xy_points.csv` に保存されます。
 
