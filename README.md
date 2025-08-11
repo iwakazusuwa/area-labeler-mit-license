@@ -1,4 +1,4 @@
-# ea-labeler-mit-license
+# area-labeler-mit-license
 - 画像上で自由に点を打ち、複数のポリゴンエリアを定義・名前付けしてCSVに保存できるPythonツールです。
 - 元画像上に色付きポリゴンとしてエリア範囲を描画し結果を画像ファイル（labeled_areas.png）に保存するPythonツールです。
 
