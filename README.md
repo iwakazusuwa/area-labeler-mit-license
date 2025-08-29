@@ -25,10 +25,9 @@
 ## フォルダ構成
 ```
 project_root/
-├── area_labeler.py         # エリア定義ツールのコード
-├── draw_areas.py           # エリアを色付きで描画するコード
+├── area_labeler.py         # エリア定義/エリアを色付きで描画のコード
 ├── car.png                 # 元画像（1380×840）
-├── xy_points.csv           # エリア座標のCSV（入力データ）
+├── xy_points.csv           # エリア座標のCSV（入力データ:エリアを色付きで描画に使用）
 ├── labeled_areas.png       # エリア描画後の出力画像
 ├── README.md
 └── LICENSE
@@ -44,7 +43,6 @@ project_root/
 
 ```bash
 python area_labeler.py
-python draw_areas.py
 ```
 
 #今後の展望
