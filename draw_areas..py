@@ -2,6 +2,10 @@ import cv2
 import csv
 import random
 
+# 画像ファイル名、出力ファイル名 
+IMAGE_PATH = "car.png"
+OUTPUT_CSV = "xy_points.csv"
+
 # ファイル読み込み
 points_df = pd.read_csv(OUTPUT_CSV)
 img = cv2.imread(IMAGE_PATH)
