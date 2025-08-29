@@ -1,19 +1,7 @@
-# ---
-# jupyter:
-#   jupytext:
-#     formats: py:percent
-#     text_representation:
-#       extension: .py
-#       format_name: percent
-#       format_version: '1.3'
-#       jupytext_version: 1.17.1
-#   kernelspec:
-#     display_name: Python 3 (ipykernel)
-#     language: python
-#     name: python3
-# ---
+import cv2
+import csv
+import random
 
-# %%
 # ファイル読み込み
 points_df = pd.read_csv(OUTPUT_CSV)
 img = cv2.imread(IMAGE_PATH)
@@ -21,7 +9,7 @@ if img is None:
     raise FileNotFoundError(f"画像が読み込めません: {IMAGE_PATH}")
 
 # 色の用意（エリア数に合わせて自動生成）
-import random
+
 random.seed(42)
 area_names = points_df["name"].unique()
 colors = {}
